@@ -13,6 +13,14 @@ A dependency-free Python agent that runs on your computer, uses a local model th
    ```
 3. Open http://127.0.0.1:8000 and chat.
 
+### Windows (PowerShell or double-click)
+1. Install Python 3 from python.org (tick "Add python.exe to PATH") and Ollama from ollama.com.
+2. In PowerShell: `ollama pull llama3.2`
+3. Double-click `agent\run_windows.bat` (or run it from a terminal).
+4. Open http://127.0.0.1:8000 in your browser.
+
+To use a different model: `set OLLAMA_MODEL=qwen2.5` before running the bat file.
+
 ### Settings (environment variables)
 - `OLLAMA_URL` (default `http://localhost:11434`)
 - `OLLAMA_MODEL` (default `llama3.1`)
